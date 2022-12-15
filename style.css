@@ -1,0 +1,1303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    }
+    .maincontainer{
+    width : 100%;
+    height : 100%;
+    /* border: 2px solid red; */
+    }
+    .navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    }
+    .PUBHUB{
+    position: absolute;
+    /* margin-left: 1px; */
+    /* padding: 38.81px 119.61px 0 0; */
+    
+    /* margin: 10px 100px 10px 0px; */
+    
+    width: 150.39px;
+    height: 50.19px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    /* margin-left: 119.61px;
+    top: 38.81px; */
+    
+    
+    }
+    .OURSERVICE,.ABOUTUS,.PRODUCTS,.PETCARE,.CONTACT{
+    padding-top: 10px;
+    margin: 10px 0 10px 0;
+    font-family: 'Goldman';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    
+    
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    
+    }
+    .SIGNIN{
+    width: 120px;
+    height: 40px;
+    font-family: 'Goldman';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+        /* left: 963px; */
+    /* top: 42px; */
+    margin: 10px 0 10px 0;
+    padding: 2px 0 2px 0;
+    background-color: #124C5F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    
+    }
+    .REGISTER{
+    width: 126px;
+    height: 40px;
+    font-family: 'Goldman';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px  180px 10px 0;
+    background-color: #C7E7E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color :#124C5F;
+    border-radius: 5px;
+    }
+    .left{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 200px;
+    left: 100px;
+    margin : 20px 0 0 0;
+    }
+    .TakingCare{
+    position: absolute;
+    width: 46%;
+    height: 40%;
+    left: 20px;
+    top: 5px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    }
+    .Human{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 20px;
+    top: 130px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    }
+    .Explore{
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    left: 22px;
+    top: 200px;
+    
+    font-family: 'Goldman';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px  180px 10px 0;
+    letter-spacing: 0.05em;
+    background-color: #124C5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    
+    }
+    .blob,.smiely{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    /* left: 9.27%; */
+    right: 40%;
+    top: 11.13%;
+    bottom: 10.08%;
+    }
+    .Ellipse2{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 300px;
+    top: 680px;
+    }
+    .Ellispe3{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 80px;
+    top: 150px;
+    }
+    .Ellipse4{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    right: 150px;
+    top: 400px;
+    }
+    .Ellipse7{
+    position: absolute;
+    left: 350%;
+    /* right: 10.42%; */
+    top: 170%;
+    bottom: 95.47%;
+    }
+    .pink{
+    position: absolute;
+    left: 420%;
+    right: 2.6%;
+    top: 560%;
+    bottom: 90.24%;
+    }
+    .hand1{
+    position: absolute;
+    left: 120%;
+    right: 13.3%;
+    top: 400%;
+    bottom: 92.9%;
+    transform: matrix(0.73, -0.7, 0.66, 0.73, 0, 0);
+    }
+    .hand2{
+    position: absolute;
+    left: 200%;
+    right: 13.3%;
+    top: 300%;
+    bottom: 92.9%;
+    }
+    .hand3{
+    position: absolute;
+    left: 280%;
+    right: 13.3%;
+    top: 400%;
+    bottom: 92.9%;
+    rotate: 45deg;
+    
+    }
+    .hand4{
+    position: absolute;
+    left: 360%;
+    right: 13.3%;
+    top: 400%;
+    bottom: 92.9%;
+    rotate: 65deg;
+    /* transform: matrix(0.73, -0.7, 0.66, 0.73, 0, 0); */
+    }
+    .hand5{
+    position: absolute;
+    left: 300%;
+    right: 13.3%;
+    top: 250%;
+    bottom: 92.9%;
+    rotate: 45deg;
+    /* transform: matrix(0.73, -0.7, 0.66, 0.73, 0, 0); */
+    }
+    .hand6{
+    position: absolute;
+    left: 360%;
+    right: 13.3%;
+    top: 600%;
+    bottom: 92.9%;
+    rotate: 45deg;
+    /* transform: matrix(0.73, -0.7, 0.66, 0.73, 0, 0); */
+    }
+    .hand7{
+    position: absolute;
+    left: 80%;
+    right: 13.3%;
+    top: 850%;
+    bottom: 92.9%;
+    rotate: 30deg;
+    /* transform: matrix(0.73, -0.7, 0.66, 0.73, 0, 0); */
+    }
+    
+    .Group1{
+    position: absolute;
+    left: 140%;
+    right: 90%;
+    top: 120%;
+    bottom:100%;
+    }
+    .Group{
+    position: absolute;
+    /* left: 47.14%; */
+    right: 70%;
+    top: 900%;
+    bottom: 100%;
+    }
+    .Services{
+    position: absolute;
+    width: 261px;
+    height: 32.41px;
+    left: 168px;
+    top: 796px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    }
+    
+    .container2{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+     align-items: center;
+    
+    }
+    .Groming,.Helthcare,.Daycare,.traning,.Hyginic{
+    position: absolute;
+    width: 200px;
+    height: 224.81px;
+    left: 158px;
+    top: 891.19px;
+        
+    background: linear-gradient(180deg, #F9FFFE 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #98F2E1;
+    filter: drop-shadow(0px 4px 74px rgba(199, 231, 225, 0.27));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    }
+    .Helthcare{        
+    position: absolute;
+    width: 200px;
+    height: 224.81px;
+    left: 389px;
+    top: 891.19px;
+    
+    background: linear-gradient(180deg, #FFFAE0 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #FFEE94;
+    filter: drop-shadow(0px 4px 74px rgba(199, 231, 225, 0.27));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    }
+    .Daycare{
+    position: absolute;
+    width: 200px;
+    height: 224.81px;
+    left: 620px;
+    top: 891.19px;
+    
+    background: linear-gradient(180deg, #F9FFFE 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #98F2E1;
+    filter: drop-shadow(0px 4px 74px rgba(199, 231, 225, 0.27));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    }
+    .traning{
+    position: absolute;
+    width: 200px;
+    height: 224.81px;
+    left: 851px;
+    top: 891.19px;
+    
+    background: linear-gradient(180deg, #FFFAE0 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #FFEE94;
+    filter: drop-shadow(0px 4px 74px rgba(199, 231, 225, 0.27));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    }
+    .Hyginic{
+    position: absolute;
+    width: 200px;
+    height: 224.81px;
+    left: 1082px;
+    top: 891.19px;
+    
+    background: linear-gradient(180deg, #F9FFFE 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #98F2E1;
+    filter: drop-shadow(0px 4px 74px rgba(199, 231, 225, 0.27));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    }
+    .Text1,.Text2,.Text3,.Text4,.Text5{
+    position: absolute;
+    width: 165px;
+    height: 24.3px;
+    left: 50px;
+    top: 180px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    }
+    
+    .contaner3{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    }
+    .vector1{
+    position: absolute;
+    width: 480px;
+    height: 500px;
+    left: 10%;
+    right: 25%;
+    top: 205%;
+    bottom: 58.81%;
+    }
+    .shetland{
+    position: absolute;
+    width : 500px;
+    height: 300px;
+    left : 10%;
+    right: 25%;
+    top : 220%;
+    bottom: 60%;
+    
+    }
+    .Hadi{
+    position: absolute;
+    left: 15%;
+    right: 90%;
+    top: 245%;
+    bottom: 80%;
+    }
+    .Plate{
+    position: absolute;
+    left: 26.74%;
+    right: 68.21%;
+    top: 278%;
+    bottom: 62.37%;
+    
+    }
+    .paw{
+    position: absolute;
+    left: 90%;
+    right: 11.6%;
+    top: 190%;
+    bottom: 74.25%;
+    
+    }
+    .vector2{
+    position: absolute;
+    width: 173.86px;
+    height: 150.95px;
+    left: 449.09px;
+    top: 1248.88px;
+    
+    }
+    .Handd{
+    position: absolute;
+    left: 13%;
+    right: 70.96%;
+    top: 230%;
+    bottom: 72.6%;
+    
+    }
+    .Handd1{
+    position: absolute;
+    left: 23%;
+    right: 70.96%;
+    top: 215%;
+    bottom: 72.6%;
+    rotate: 45deg;
+    
+    }
+    .Handd2{
+    position: absolute;
+    left: 36%;
+    right: 70.96%;
+    top: 235%;
+    bottom: 72.6%;
+    rotate: 90deg;
+    
+    }
+    .video{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 37%;
+    right: 61.46%;
+    top: 210%;
+    bottom: 72.53%;
+    background: #FFFFFF;
+    /* background-color: green; */
+    border : 2px solid red;
+    
+    
+    }
+    .learn{
+    position: absolute;
+    width: 100px;
+    left: 36%;
+    right: 61.46%;
+    top: 220%;
+    bottom: 72.53%;
+    color : white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    }
+    .speak{
+    position: absolute;
+    width: 580px;
+    height: 321px;
+    left: 715px;
+    top: 1270px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    }
+    .sweet{
+    position: absolute;
+    width: 533px;
+    height: 104px;
+    left: 8px;
+    top: 35%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 137.9%;
+    /* or 26px */
+    
+    letter-spacing: 0.05em;
+    }
+    .more{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 8px;
+    top: 80%;
+    margin: 10px 0 10px 0;
+    background-color: #124C5F;
+    border-radius: 5px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .contaner4{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    }
+    .Nutrients{
+    position: absolute;
+    width: 254px;
+    height: 35px;
+    left: 168px;
+    top: 1899px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    
+    }
+    .view{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 950px;
+    top: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color : white;
+    background-color: #124C5F;
+    border-radius: 5px;
+    }
+    .OFF{
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    left: 173px;
+    top: 1979px;
+        
+    font-family: 'Goldman';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 40px;
+    line-height: 46px;
+    
+    }
+    .vector3{
+    position: absolute;
+    width: 333.53px;
+    height: 185.49px;
+    left: 139.39px;
+    top: 2267.18px;
+    
+    }
+    .drools{
+    position: absolute;
+    width: 203px;
+    height: 312px;
+    left: 188px;
+    top: 2084px;
+    
+    }
+    .Drools{
+    position: absolute;
+    width: 300px;
+    height: 165px;
+    left: 173px;
+    top: 2474px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    
+    }
+    .Adults{
+    position: absolute;
+    width: 350px;
+    height: 165px;
+    left: 173px;
+    top: 2520px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+    
+    }
+    .buy{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 180px;
+    top: 2630px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color:#124C5F;
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    .vector4{
+    position: absolute;
+    width: 333.53px;
+    height: 185.49px;
+    left: 566px;
+    top: 2277px;
+    
+    }
+    .canin{
+    position: absolute;
+    width: 275px;
+    height: 312px;
+    left: 582px;
+    top: 2095px;
+    
+    }
+    .Canin{
+    position: absolute;
+    width: 300px;
+    height: 165px;
+    left: 582px;
+    top: 2474px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    
+    }
+    .Chicken{
+    position: absolute;
+    width: 350px;
+    height: 165px;
+    left: 582px;
+    top: 2520px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+    
+    }
+    
+    .Buy{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 590px;
+    top: 2630px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #124C5F;
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    .vector5{
+    position: absolute;
+    width: 333.53px;
+    height: 185.49px;
+    left: 970px;
+    top: 2277px;
+    
+    }
+    .Biscrock{
+    position: absolute;
+    width: 205px;
+    height: 333px;
+    left: 1034px;
+    top: 2074px;
+    
+    }
+    .Biscuit{
+    position: absolute;
+    width: 300px;
+    height: 165px;
+    left: 989px;
+    top: 2474px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    
+    }
+    
+    .egg{
+    position: absolute;
+    width: 300px;
+    height: 165px;
+    left: 989px;
+    top: 2520px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+    
+    }
+    
+    .now{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1010px;
+    top: 2630px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color : #124C5F;
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    .container5{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+    }
+    .appreciate{
+    position: absolute;
+    width: 508px;
+    height: 326px;
+    left: 175px;
+    top: 2798px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    
+    }
+    .roll{
+    
+    position: absolute;
+    width: 530px;
+    height: 40px;
+    left: 178px;
+    top: 2939px;
+        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 137.9%;
+        
+    letter-spacing: 0.05em;
+    
+    }
+    .plore{
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    left: 178px;
+    top: 3046px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    background: #124C5F;
+    color : white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .vector6{
+    position: absolute;
+    width: 501.47px;
+    height: 671.47px;
+    left: 691px;
+    top: 2733.62px;
+    transform: rotate(-0.3deg);
+    
+    }
+    .pawwww{
+    position: absolute;
+    left: 53%;
+    right: 44.87%;
+    top: 2800px;
+    bottom: 40.9%;
+    
+    transform: rotate(11.09deg);
+    
+    }
+    .ball{
+    position: absolute;
+    left: 53%;
+    right: 45.21%;
+    top: 3000px;
+    bottom: 36.29%;
+    
+    }
+    .pla{
+    position: absolute;
+    left: 84%;
+    right: 15.13%;
+    top: 2900px;
+    bottom: 38.54%;
+    
+    /* background: rgba(74, 177, 210, 0.52); */
+    transform: rotate(-16.08deg);
+    
+    }
+    .hadddi{
+    position: absolute;
+    left: 84%;
+    right: 18.3%;
+    top: 3200px;
+    bottom: 32.05%;
+    
+    /* background: #A0D6E7; */
+    transform: rotate(-22.93deg);
+    
+    }
+    .contaner6{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+    }
+    .happy{
+    position: absolute;
+    width: 261px;
+    height: 61.27px;
+    left: 162px;
+    top: 3431.32px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    
+    }
+    .card1{
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    left: 119px;
+    top: 3492.69px;
+        
+    }
+    .card2{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    left: 520px;
+    top: 3472px;
+    
+    }
+    .card3{
+    position: absolute;
+    width: 300px;
+    height: 380px;
+    left: 921px;
+    top: 3444.02px;
+    
+    }
+    .mooo{
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    left: 580.1px;
+    top: 3900px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: #FFFFFF;
+    background: #124C5F;
+    border-radius: 5px;
+    
+    }
+    .container7{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F6FAF9;
+    }
+    .join{
+    position: absolute;
+    width: 699px;
+    height: 293px;
+    left: 445px;
+    top: 4080px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    
+    }
+    
+    .box{
+    position: absolute;
+    width: 700px;
+    height: 80px;
+    left: 350px;
+    top: 4200px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+        
+    background: #FFFFFF;
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.05);
+    
+    }
+    .type{
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: 350px;
+    top: 4220px;
+    background-color: aqua;
+        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 137.9%;
+        /* or 26px */
+        
+    text-align: center;
+    letter-spacing: 0.05em;
+        
+    }
+    .tex{
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    top : 4230px;
+    left : 390px;
+    }
+    .submit{
+    position: absolute;
+    width: 163.28px;
+    height: 40px;
+    left: 850px;
+    top: 4220px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #124C5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+    color: #FFFFFF;
+    
+    }
+    .follow{
+    position: absolute;
+    width: 160px;
+    height: 17px;
+    left: 171px;
+    top: 4400px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    }
+    .circle1{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 161px;
+    top: 4432px;
+    
+    }
+    .fblogo{
+    position: absolute;
+    left: 173px;
+    right: 21.51%;
+    top: 4445px;
+    bottom: 0.2%;
+    
+    }
+    .circle2{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 247px;
+    top: 4432px;
+    
+    }
+    .insta{
+    position: absolute;
+    left: 263px;
+    right: 21.51%;
+    top: 4445px;
+    bottom: 0.2%;
+    
+    }
+    .Boarding{
+    position: absolute;
+    width: 170px;
+    height: 17px;
+    left: 704px;
+    top: 4400px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    }
+    .num1{
+    position: absolute;
+    width: 533px;
+    height: 30px;
+    left: 524px;
+    top: 4429px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 137.9%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #124C5F;
+    
+    }
+    .howard{
+    position: absolute;
+    width: 267px;
+    height: 99px;
+    left: 696px;
+    top: 4471px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 137.9%;
+    /* or 25px */
+    
+    letter-spacing: 0.05em;
+    
+    color: #757777;
+    
+    }
+    .Hel{
+    position: absolute;
+    width: 110px;
+    height: 17px;
+    left: 991px;
+    top: 4400px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    }
+    .num2{
+    position: absolute;
+    width: 533px;
+    height: 30px;
+    left: 806px;
+    top: 4429px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 137.9%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #124C5F;
+    
+    }
+    .street{
+    position: absolute;
+    width: 267px;
+    height: 99px;
+    left: 991px;
+    top: 4471px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 137.9%;
+    /* or 25px */
+    
+    letter-spacing: 0.05em;
+    
+    color: #757777;
+    
+    }
+    
+    .lastcontainer{
+        width: 500px;
+        height : 200px;
+        display: flex;
+        flex-direction: row;
+    }
+    .lastline{
+    position: absolute;
+    width: 533px;
+    height: 22px;
+    left: 94px;
+    top: 4599px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137.9%;
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #414141;
+    
+    }
+    .serv{
+    position: absolute;
+    width: 70px;
+    height: 17px;
+    left: 692px;
+    top: 4605px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;
+    
+    }
+    .us{
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 819px;
+    top: 4605px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    
+    
+    }
+    .shipp{
+    position: absolute;
+    width: 48px;
+    height: 17px;
+    left: 930px;
+    top: 4605px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    
+    
+    }
+    .FAQ{
+    position: absolute;
+    width: 27px;
+    height: 17px;
+    left: 1033px;
+    top: 4605px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    
+    
+    }
+    .con{
+    position: absolute;
+    width: 49px;
+    height: 17px;
+    left: 1098px;
+    top: 4605px;
+    
+    font-family: 'Pangolin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    
+    
+    }
+    
